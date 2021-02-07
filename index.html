@@ -149,9 +149,9 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
                     <div class="about-v1-content">
-                        <h2 class="title">Quickzap is a block chain based marketplace</h2>
-                        <h3 class="title-2">Automatic matching of buyers & sellers via unique artificial intelligence approach.</h3>
-                        <p class="text">We offers users a fully operational long-term rental platform. It plans to leverages blockchain technology to ensure seamless rental experience and wants to help tenants unfreeze millions of dollars tied up in rental deposits</p>
+                        <h2 class="title">Quickzap is a decentralized gateway</h2>
+                        <!--<h3 class="title-2"></h3>-->
+                        <p class="text">We bring together everything that’s required to build websites and apps that accept DeFi payments.</p>
                     </div>
                 </div>
             </div>
@@ -256,21 +256,19 @@
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="service-box service-1">
                                     <span class="icon"><img src="img/home-one/choose-icon-1.png" alt=""></span>
-                                    <h2 class="title">Wallet</h2>
-                                    <p class="text">We offers users a fully operational long-term rental platform to get
-                                        noney sure.</p>
+                                    <h2 class="title">we are First</h2>
+                                    <p class="text"> We are the first and only Defi payment gateway in the world</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="service-box service-1">
                                     <span class="icon"><i class="fas fa-lock"></i></span>
                                     <h2 class="title">Safe & Secure</h2>
-                                    <p class="text">We offers users a fully operational long-term rental platform to get
-                                        noney sure.</p>
+                                    <p class="text">We dont need to collect any personal data for you to implement our API.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <div class="service-box service-1">
+                          <!---  <div class="col-lg-6 col-md-6 col-12">
+                                <div class="service-box service-1r">
                                     <span class="icon"><img src="img/home-one/choose-icon-3.png" alt=""></span>
                                     <h2 class="title">Buy & Sell</h2>
                                     <p class="text">We offers users a fully operational long-term rental platform to get
@@ -284,7 +282,7 @@
                                     <p class="text">We offers users a fully operational long-term rental platform to get
                                         noney sure.</p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -305,9 +303,11 @@
                             <script>  
                             let amount ="2000";
                             let receiver= "0x58D1dFDc447C99105c2A07b95D6f161e4d882056";
+                            /*Enter the address of the type of Defi token you want to receive has payment*/
+                            let tokentype="0xc778417E063141139Fce010982780140Aa0cD5Ab";
 
 
-                          pay_quickzap (amount,receiver);
+                          pay_quickzap (amount,receiver,tokentype);
                                     </script>
                          </textarea>
                    
@@ -318,17 +318,18 @@
         
      </div>
     </section>
-    <section class="team-area" id="_team">
+    <section  class="team-area" id="_team">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 col-12">
                     <div class="section-title">
                         <h2 class="title">Our Team</h2>
-                        <p class="text">Quickzap is a platform for the future of funding that powering dat for the new equity blockchain.</p>
+                        <!--<p class="text">Quickzap is a platform for the future of funding that powering dat for the new equity blockchain.</p>-->
                     </div>
                 </div>
             </div>
-           <center> <div class="row">
+          <div class="row"> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="single-team">
                         <div class="img"><img src="img/home-one/team-1.png" alt=""></div>
@@ -372,10 +373,10 @@
                     </div>
                 </div>
            
-            </div> </center>
+            </div> 
         </div>
     </section>
-    <section class="faq-area">
+    <!--<section class="faq-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
@@ -428,7 +429,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
    <!--- <section class="blog-area">
         <div class="blog-bg"><img src="img/home-two/blog-bg.png" alt=""></div>
         <div class="container">
@@ -540,7 +541,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="contact-form-input text-center">
-                                    <button id="submit" class="cont-submit btn-style-3 link hvr-bs btn-hvr-anim-top" name="submit">SEND MESSAGE</button>
+                                    <button id="submit" class="cont-submit btn-style-3 link hvr-bs btn-hvr-anim-top" disabled name="submit">SEND MESSAGE</button>
                                 </div>
                             </div>
                         </div>
